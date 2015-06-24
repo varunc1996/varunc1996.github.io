@@ -56,5 +56,29 @@
 
   <div style="width: 300px;"><iframe style="display: block;" src="http://cdnres.willyweather.com/widget/loadView.html?id=23009" width="300" height="228" frameborder="0" scrolling="no"></iframe><a style="display: block;z-index: 1;position: relative;text-indent: -9999em;margin: -20px 0 0 0;height: 20px" href="http://www.willyweather.com/ca/santa-clara-county/san-jose.html">http://www.willyweather.com/ca/santa-clara-county/san-jose.html</a></div>
 
+
+  <!-- Begin CapeMovies.com Widget -->
+
+<div id="cape-movies-widget">
+  <p>
+    Please wait while your browser fetches the current movies. This may
+    take a couple of seconds.
+  </p>
+  <p>
+    <a href="http://www.capemovies.com/">Cape Cod movies</a> are provided by
+    <a href="http://www.capemovies.com/">CapeMovies.com</a>, a part of the
+    <a href="http://www.c4.net/">c4.net</a> network. Visit
+    <a href="http://www.capeguide.com/">CapeGuide.com</a> for information
+    about Cape Cod, Martha's Vineyard, &amp; Nantucket.
+  </p>
+</div>
+
+<script type="text/javascript" src="http://www.capemovies.com/widget/movies.js"></script>
+<script type="text/javascript">
+  Movies.fetch("cape-movies-widget", { "maxMovies" : 5 });
+</script>
+
+<!-- End CapeMovies.com Widget -->
+
   </body>
 </html>
