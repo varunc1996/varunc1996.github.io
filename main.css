@@ -11,11 +11,7 @@
 }
 
 .jumbotron {
-<<<<<<< HEAD
-  background-image:url('http://cdn.photolabels.co/images/desktopbackgrounds1.com/wp-content/uploads/2012/03/cool-nature-desktop-backgrounds-4.jpg');
-=======
-  background-image:url('http://cdn.photolabels.co/images/desktopbackgrounds1.com/wp-content/uploads/2012/03/cool-nature-desktop-backgrounds-4.jpg');
->>>>>>> FETCH_HEAD
+  background-image:url('http://www.jettingaround.com/wp-content/uploads/2012/11/Champaign-UICU.jpg');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,4 +46,19 @@
 
 .learn-more a {
   color: #00b0ff;
+}
+
+.neighborhood-guides {
+    background-color : #efefef;
+    border-bottom : 1px solid #dbdbdb;
+}
+
+.neighborhood-guides h2 {
+    color : #393c3d;
+    font-size : 24px;
+}
+
+.neighborhood-guides p {
+    margin-bottom: 13px;
+    font-size : 15px;
 }
