@@ -263,6 +263,7 @@ hr {
 	display:block;
     position:relative;
     z-index:120;
+
 }
 
 
@@ -310,23 +311,28 @@ hr {
 
 #intro.intro {
 	padding:20% 0 0 0;
+  background-attachment:fixed;
 }
 
 .intro .slogan {
 	text-align: center;
+  background-image:fixed;
 
 }
 
 .intro .page-scroll {
 	text-align: center;
+  background-image:fixed;
 }
 
 .brand-heading {
     font-size: 40px;
+    background-image:fixed;
 }
 
 .intro-text {
     font-size: 18px;
+    background-image:fixed;
 }
 
 .intro .slogan h2 {
@@ -342,12 +348,14 @@ hr {
 	border-width: 0px;
 	border-color: #000;
 	border-style: none;
-	text-shadow: -1px 0 1px #000;
+	text-shadow: -5px 0 5px #000;
+  background-image:fixed;
 }
 
 .intro .slogan h4 {
 	color: #fff;
-	text-shadow: -1px 1px 1px #000;
+	text-shadow: -3px 3px 3px #000;
+  background-image:fixed;
 }
 
 
@@ -532,38 +540,24 @@ footer p {
 Parallax
 ============================= */
 
-#parallax1{	
-	background-image: url(../img/parallax/1.jpg);
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-
-#parallax1:after {	
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
-
-
-#parallax2{	
-	background-image: url(../img/parallax/2.jpg);
-
+.parallax__layer--base {
+  transform: translateZ(0);
 }
-
-#parallax2:after  {	
-	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGD4z0AswK4SAFXuAf8EPy+xAAAAAElFTkSuQmCC);
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
-	opacity: 0.7;
-	z-index: -1;
+.parallax__layer--back {
+  transform: translateZ(-1px);
 }
 
 
