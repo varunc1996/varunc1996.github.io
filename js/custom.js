@@ -2,10 +2,12 @@
 
 	new WOW().init();
 
+
 	jQuery(window).load(function() { 
 		jQuery("#preloader").delay(1000).fadeOut("slow");
 		jQuery("#load").delay(1000).fadeOut("slow");
 	});
+
 
 
 	//jQuery to collapse the navbar on scroll
