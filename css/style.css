@@ -59,7 +59,7 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-	
+
 }
 
 .navbar-brand {
@@ -83,18 +83,18 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,.5);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(255,0,0,0);
 }
 
 
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: #444;
+    color: #555;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -147,13 +147,13 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255,255,255,.2);
+    /*The highlight in the navbar*/
+    background-color: #fee202;
 }
 
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff;
 }
 
 .navbar-toggle:focus,
@@ -164,7 +164,8 @@ a:focus {
 
 /* loader */
 #preloader {
-    background: #1947D1;
+    background: #575757
+;
     bottom: 0;
     height: 100%;
     left: 0;
@@ -236,7 +237,7 @@ a:focus {
   right: 0;
   border-radius: 0px;
   border: 5px solid #FF4136;
-  box-shadow: 10px 0px #39CCCC, 10px 0px #01FF70;
+  box-shadow: 10px 0px #000, 10px 0px #01FF70;
   animation: shadowSpin 1s ease-in-out infinite;
 }
 
@@ -285,9 +286,16 @@ hr {
 	background: #f8f8f8;
 }
 
+.bg-black {
+  background: #000;
+}
 
 .bg-dark {
 	background: #575757;
+}
+
+.bg-brown{
+  background: #48372f
 }
 
 /* --- section color var --- */
@@ -306,7 +314,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/bg1.jpg) no-repeat top center; 
+	background: url(../img/bg-yellow.jpg) no-repeat top center; 
 }
 
 #intro.intro {
@@ -529,7 +537,27 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 footer {
 	text-align: center;
 	padding: 50px 0 ;
-	
+	background-color: #000;
+  color: #000;
+}
+
+#footer{
+  background-color: #000;
+}
+.Footer{
+  background-color: #000;
+}
+
+footer .footer{
+  background-color: #000;
+}
+
+footer .container{
+  background-color: #000;
+}
+
+footer .row{
+  background-color: #000;
 }
 
 footer p {
@@ -704,6 +732,7 @@ Parallax
 
 .banner-social-buttons {
     margin-top: 0;
+    background-color: #000;
 }
 
 
@@ -723,11 +752,12 @@ Parallax
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
     }
 
+    /*This is where the collapsed banner color is */
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid rgba(255,255,255,.3);
+        border-bottom: 1px solid rgba(0,0,0,.3);
+        background-color: #48372f;
     }
 	
     .intro {
