@@ -147,8 +147,8 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    /*The highlight in the navbar*/
-    background-color: #fee202;
+    /*This changes highlight in the navbar*/
+    background-color: #DE1B1B;
 }
 
 .navbar-toggle {
@@ -298,6 +298,10 @@ hr {
   background: #48372f
 }
 
+.bg-darkgray{
+  background: #2b2b2b;
+}
+
 /* --- section color var --- */
 
 .text-light {
@@ -314,7 +318,7 @@ hr {
 	width:100%;
 	position:relative;
 	
-	background: url(../img/bg-yellow.jpg) no-repeat top center; 
+	background: url(../img/bg-red.jpg) no-repeat top center; 
 }
 
 #intro.intro {
@@ -754,10 +758,10 @@ Parallax
         padding: 0;
     }
 
-    /*This is where the collapsed banner color is */
+    /*This changes  the collapsed banner color  */
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(0,0,0,.3);
-        background-color: #48372f;
+        background-color: #2b2b2b;
     }
 	
     .intro {
